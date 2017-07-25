@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/CRM06/!svn/ver/36/src/main/test
+END
+TestExecl.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/CRM06/!svn/ver/23/src/main/test/TestExecl.java
+END
+EmployeeServiceImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/CRM06/!svn/ver/21/src/main/test/EmployeeServiceImplTest.java
+END
+TestMenu.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/CRM06/!svn/ver/19/src/main/test/TestMenu.java
+END
+CheckInTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/CRM06/!svn/ver/21/src/main/test/CheckInTest.java
+END
+MainTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/CRM06/!svn/ver/23/src/main/test/MainTest.java
+END
+TestLucene.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/CRM06/!svn/ver/23/src/main/test/TestLucene.java
+END

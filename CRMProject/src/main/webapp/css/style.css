@@ -1,0 +1,20 @@
+
+
+/* body{width: 100%;background: #CDCDCD;-webkit-background-size: 100%;background-size: 100% 700px;color: #3A3A3A;font-size: 12px;font-family: '微软雅黑';font-style: normal} */
+body{width: 100%;background: #FAFBFB url(../img/crm-bg.jpg)no-repeat;-webkit-background-size: 100%;background-size: 100% 700px;color: #3A3A3A;font-size: 12px;font-family: '微软雅黑';font-style: normal}
+
+#con{width: 980px;height: 635px;margin: auto 600px auto ;overflow: hidden;}
+#con .left{width: 600px;height: 500px;float: left;margin-top: 100px;}
+#con .left h2{font-size: 40px;color: white;margin-bottom: 20px;}
+#con .left>p{width: 600px;line-height: 24px;font-size: 14px;color: #CECCC8;}
+#con .left>p span{color:#C92133;}
+#con .left .icon{margin-top: 30px;overflow: hidden;}
+#con .left .icon dl{float: left;width: 170px;margin: 10px;text-align: center;}
+#con .left .icon dl dd{margin-top: 10px;}
+#con .left .icon dl h3{color: white;font-weight: normal;}
+#con .left .icon dl:nth-of-type(3) dt{height: 60px;color:#1163A8;font-size: 32px; line-height: 120px;height: 120px}
+#con .left .icon dl p{margin-top: 10px;color: #CECCC8;}
+#con .right{float: right;margin-top:100px;margin-right: 20px; }
+#con .right input{display: block;line-height: 30px;width: 300px;height: 30px;margin-bottom: 20px;outline: none;border: 1px solid #ccc;border-right: 10px;padding-left: 10px}
+#con .right input:nth-of-type(3){width: 310px;color: white;background: red;border: none;font-size: 14px;cursor: pointer;}
+

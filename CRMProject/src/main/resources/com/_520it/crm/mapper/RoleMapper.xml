@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com._520it.crm.mapper.RoleMapper">
+    <resultMap id="BaseResultMap" type="com._520it.crm.domain.Role">
+        <id column="id" property="id" jdbcType="BIGINT"/>
+        <result column="sn" property="sn" jdbcType="VARCHAR"/>
+        <result column="name" property="name" jdbcType="VARCHAR"/>
+    </resultMap>
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from role
+    where id = #{id,jdbcType=BIGINT}
+  	</delete>
+
+    <insert id="insert" parameterType="Role" useGeneratedKeys="true" keyProperty="id">
+    insert into role (sn, name)
+    values (#{sn,jdbcType=VARCHAR}, #{name,jdbcType=VARCHAR})
+  </insert>
+    <update id="updateByPrimaryKey" parameterType="Role">
+    update role
+    set sn = #{sn,jdbcType=VARCHAR},
+      name = #{name,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+    <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long">
+    select id, sn, name
+    from role
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+    <select id="selectAll" resultMap="BaseResultMap">
+    select id, sn, name
+    from role
+  </select>
+
+    <select id="queryByConditionCount" resultType="long">
+    select count(*) from role r
+  </select>
+
+    <select id="queryByCondition" resultMap="BaseResultMap">
+        select r.id,r.sn,r.name from role r
+        <if test="page != null">
+            limit #{start},#{rows};
+        </if>
+    </select>
+    
+    <select id="queryByRid" resultType="Permission">
+        select p.id,p.name from permission p where p.id in (select p_id from role_permission where r_id = #{rid})
+    </select>
+
+
+    <insert id="handlerRelation" parameterType="long">
+        insert into role_permission(r_id,p_id) VALUES (#{RId},#{PId})
+    </insert>
+
+    <delete id="deletePermissionByRid">
+        delete from role_permission where r_id = #{rid}
+    </delete>
+
+    <select id="selectByEid" resultType="Role">
+        select id,sn,name from role where id in (select r_id from emp_role where e_id = #{eid})
+    </select>
+
+</mapper>

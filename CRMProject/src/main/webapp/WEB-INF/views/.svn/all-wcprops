@@ -1,0 +1,233 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/CRM06/!svn/ver/62/src/main/webapp/WEB-INF/views
+END
+common.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/CRM06/!svn/ver/60/src/main/webapp/WEB-INF/views/common.jsp
+END
+clew.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/CRM06/!svn/ver/23/src/main/webapp/WEB-INF/views/clew.jsp
+END
+customerChartLine.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/CRM06/!svn/ver/62/src/main/webapp/WEB-INF/views/customerChartLine.jsp
+END
+potentialCustomerDevPlan.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/CRM06/!svn/ver/23/src/main/webapp/WEB-INF/views/potentialCustomerDevPlan.jsp
+END
+salary.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/CRM06/!svn/ver/26/src/main/webapp/WEB-INF/views/salary.jsp
+END
+customerPic.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/CRM06/!svn/ver/62/src/main/webapp/WEB-INF/views/customerPic.jsp
+END
+weather.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/CRM06/!svn/ver/59/src/main/webapp/WEB-INF/views/weather.jsp
+END
+role.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/CRM06/!svn/ver/23/src/main/webapp/WEB-INF/views/role.jsp
+END
+customer.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/CRM06/!svn/ver/47/src/main/webapp/WEB-INF/views/customer.jsp
+END
+customerChartCloumn.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/CRM06/!svn/ver/62/src/main/webapp/WEB-INF/views/customerChartCloumn.jsp
+END
+netdisk.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/CRM06/!svn/ver/60/src/main/webapp/WEB-INF/views/netdisk.jsp
+END
+checkIn.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/CRM06/!svn/ver/32/src/main/webapp/WEB-INF/views/checkIn.jsp
+END
+attendance.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CRM06/!svn/ver/32/src/main/webapp/WEB-INF/views/attendance.jsp
+END
+index.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/CRM06/!svn/ver/54/src/main/webapp/WEB-INF/views/index.jsp
+END
+calendar.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/CRM06/!svn/ver/61/src/main/webapp/WEB-INF/views/calendar.jsp
+END
+customerLine.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CRM06/!svn/ver/62/src/main/webapp/WEB-INF/views/customerLine.jsp
+END
+guarantee.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/CRM06/!svn/ver/53/src/main/webapp/WEB-INF/views/guarantee.jsp
+END
+orderBill.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/CRM06/!svn/ver/61/src/main/webapp/WEB-INF/views/orderBill.jsp
+END
+employee.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/CRM06/!svn/ver/31/src/main/webapp/WEB-INF/views/employee.jsp
+END
+customerCloumn.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/CRM06/!svn/ver/62/src/main/webapp/WEB-INF/views/customerCloumn.jsp
+END
+potentialCustomer.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/CRM06/!svn/ver/31/src/main/webapp/WEB-INF/views/potentialCustomer.jsp
+END
+contractChartPic.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/CRM06/!svn/ver/51/src/main/webapp/WEB-INF/views/contractChartPic.jsp
+END
+contractChart.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/CRM06/!svn/ver/51/src/main/webapp/WEB-INF/views/contractChart.jsp
+END
+task.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/CRM06/!svn/ver/55/src/main/webapp/WEB-INF/views/task.jsp
+END
+customerResourcePool.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/CRM06/!svn/ver/20/src/main/webapp/WEB-INF/views/customerResourcePool.jsp
+END
+department.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/CRM06/!svn/ver/1/src/main/webapp/WEB-INF/views/department.jsp
+END
+vacate.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/CRM06/!svn/ver/46/src/main/webapp/WEB-INF/views/vacate.jsp
+END
+customerChart2.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/CRM06/!svn/ver/51/src/main/webapp/WEB-INF/views/customerChart2.jsp
+END
+customerTransfer.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/CRM06/!svn/ver/20/src/main/webapp/WEB-INF/views/customerTransfer.jsp
+END
+contractChartLine.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/CRM06/!svn/ver/51/src/main/webapp/WEB-INF/views/contractChartLine.jsp
+END
+systemDictionary.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/CRM06/!svn/ver/20/src/main/webapp/WEB-INF/views/systemDictionary.jsp
+END
+customerDevPlan.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/CRM06/!svn/ver/23/src/main/webapp/WEB-INF/views/customerDevPlan.jsp
+END
+contractChartCloumn.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/CRM06/!svn/ver/51/src/main/webapp/WEB-INF/views/contractChartCloumn.jsp
+END
+contract.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/CRM06/!svn/ver/61/src/main/webapp/WEB-INF/views/contract.jsp
+END
+knowledge.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/CRM06/!svn/ver/29/src/main/webapp/WEB-INF/views/knowledge.jsp
+END
+customerChartPic.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/CRM06/!svn/ver/62/src/main/webapp/WEB-INF/views/customerChartPic.jsp
+END
+fastCheckIn.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/CRM06/!svn/ver/50/src/main/webapp/WEB-INF/views/fastCheckIn.jsp
+END
+customerChart.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/CRM06/!svn/ver/51/src/main/webapp/WEB-INF/views/customerChart.jsp
+END

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com._520it.crm.mapper.DepartmentMapper">
+    <resultMap id="BaseResultMap" type="com._520it.crm.domain.Department">
+        <id column="id" jdbcType="BIGINT" property="id"/>
+        <result column="sn" jdbcType="VARCHAR" property="sn"/>
+        <result column="name" jdbcType="VARCHAR" property="name"/>
+        <result column="name" property="text"/>
+        <result column="state" jdbcType="BIT" property="state"/>
+        <association property="manager" javaType="Employee" columnPrefix="mg_">
+            <id column="id" property="id"/>
+            <result column="name" property="username"/>
+        </association>
+        <association property="parent" javaType="Department" columnPrefix="parent_">
+            <id column="id" property="id"/>
+            <result column="name" property="name"/>
+            <result column="name" property="text"/>
+            <result column="sn" property="sn"/>
+        </association>
+        <collection property="children" column="id" ofType="Department"
+                    select="com._520it.crm.mapper.DepartmentMapper.selectByPid"></collection>
+    </resultMap>
+
+    <resultMap id="ListResultMap" type="Department">
+        <id column="id" property="id" jdbcType="BIGINT" />
+        <result column="name" property="name" jdbcType="VARCHAR" />
+    </resultMap>
+
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from department
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+    <insert id="insert" keyProperty="id" parameterType="Department" useGeneratedKeys="true">
+    insert into department (sn, name, manager_id, 
+      parent_id, state)
+    values (#{sn,jdbcType=VARCHAR}, #{name,jdbcType=VARCHAR}, #{manager.id,jdbcType=BIGINT},
+      #{parent.id,jdbcType=BIGINT}, #{state,jdbcType=BIT})
+  </insert>
+    <update id="updateByPrimaryKey" parameterType="Department">
+    update department
+    set sn = #{sn,jdbcType=VARCHAR},
+      name = #{name,jdbcType=VARCHAR},
+      manager_id = #{manager.id,jdbcType=BIGINT},
+      parent_id = #{parent.id,jdbcType=BIGINT},
+      state = #{state,jdbcType=BIT}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+    <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select id, sn, name, manager_id, parent_id, state
+    from department
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+    <select id="selectAll" resultMap="BaseResultMap">
+    select id, sn, name, manager_id, parent_id, state
+    from department
+  </select>
+
+    <sql id="conditionSql">
+        <where>
+            <if test="state !=null">
+                AND d.state = #{state}
+            </if>
+            <if test="keyword !=null">
+                AND ( d.sn like concat('%',#{keyword},'%') OR d.name like concat('%',#{keyword},'%') )
+            </if>
+        </where>
+    </sql>
+
+    <select id="queryByConditonCount" resultType="java.lang.Long">
+        select count(*) from department d
+        left join department parent on d.parent_id = parent.id
+        left join employee mg on d.manager_id = mg.id
+        <include refid="conditionSql"/>
+    </select>
+
+    <select id="queryByCondition" resultMap="BaseResultMap">
+        select d.id,d.sn,d.name,d.state,parent.id as parent_id,parent.sn as parent_sn, parent.name as parent_name,mg.id
+        as mg_id,mg.username as mg_name
+        from department d
+        left join department parent on d.parent_id = parent.id
+        left join employee mg on d.manager_id = mg.id
+        <include refid="conditionSql"/>
+        <if test="page !=null">
+            limit #{start},#{rows}
+        </if>
+    </select>
+    <select id="selectRoot" resultMap="BaseResultMap">
+      select id,sn,name,parent_id from department  where parent_id is null
+    </select>
+    <select id="selectByPid" resultMap="BaseResultMap">
+     select id,sn,name,parent_id from department  where parent_id = #{id}
+    </select>
+
+    <select id="getByMid" resultMap="ListResultMap" parameterType="long">
+        select  id, name from department WHERE manager_id=#{id}
+    </select>
+</mapper>

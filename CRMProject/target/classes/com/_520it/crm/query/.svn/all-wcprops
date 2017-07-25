@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/CRM06/!svn/ver/62/src/main/java/com/_520it/crm/query
+END
+CustomerChartQueryObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/CRM06/!svn/ver/37/src/main/java/com/_520it/crm/query/CustomerChartQueryObject.java
+END
+PermissionQueryObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/CRM06/!svn/ver/1/src/main/java/com/_520it/crm/query/PermissionQueryObject.java
+END
+ClewQueryObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/CRM06/!svn/ver/23/src/main/java/com/_520it/crm/query/ClewQueryObject.java
+END
+SalaryQueryObejct.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/CRM06/!svn/ver/26/src/main/java/com/_520it/crm/query/SalaryQueryObejct.java
+END
+ContractChartQueryObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/CRM06/!svn/ver/62/src/main/java/com/_520it/crm/query/ContractChartQueryObject.java
+END
+CustomerQueryObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/CRM06/!svn/ver/13/src/main/java/com/_520it/crm/query/CustomerQueryObject.java
+END
+RoleQueryObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/CRM06/!svn/ver/1/src/main/java/com/_520it/crm/query/RoleQueryObject.java
+END
+TaskQueryObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/CRM06/!svn/ver/27/src/main/java/com/_520it/crm/query/TaskQueryObject.java
+END
+CustomerResourcePoolQueryObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/CRM06/!svn/ver/17/src/main/java/com/_520it/crm/query/CustomerResourcePoolQueryObject.java
+END
+DepartmentQueryObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/CRM06/!svn/ver/1/src/main/java/com/_520it/crm/query/DepartmentQueryObject.java
+END
+VacateQueryObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/CRM06/!svn/ver/32/src/main/java/com/_520it/crm/query/VacateQueryObject.java
+END
+NetworkDiskQueryObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/CRM06/!svn/ver/55/src/main/java/com/_520it/crm/query/NetworkDiskQueryObject.java
+END
+CheckInQueryObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/CRM06/!svn/ver/16/src/main/java/com/_520it/crm/query/CheckInQueryObject.java
+END
+AttendanceQueryObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/CRM06/!svn/ver/26/src/main/java/com/_520it/crm/query/AttendanceQueryObject.java
+END
+CustomerTransferQueryObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/CRM06/!svn/ver/13/src/main/java/com/_520it/crm/query/CustomerTransferQueryObject.java
+END
+CalendarQueryObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/CRM06/!svn/ver/39/src/main/java/com/_520it/crm/query/CalendarQueryObject.java
+END
+CustomerDevPlanQueryObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/CRM06/!svn/ver/17/src/main/java/com/_520it/crm/query/CustomerDevPlanQueryObject.java
+END
+GuaranteeQueryObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/CRM06/!svn/ver/15/src/main/java/com/_520it/crm/query/GuaranteeQueryObject.java
+END
+ContractQueryObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/CRM06/!svn/ver/25/src/main/java/com/_520it/crm/query/ContractQueryObject.java
+END
+KnowQueryObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/CRM06/!svn/ver/24/src/main/java/com/_520it/crm/query/KnowQueryObject.java
+END
+OrderBillQueryObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/CRM06/!svn/ver/19/src/main/java/com/_520it/crm/query/OrderBillQueryObject.java
+END
+EmployeeQueryObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/CRM06/!svn/ver/1/src/main/java/com/_520it/crm/query/EmployeeQueryObject.java
+END
+QueryObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/CRM06/!svn/ver/27/src/main/java/com/_520it/crm/query/QueryObject.java
+END
+PotentialCustomerQueryObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/CRM06/!svn/ver/13/src/main/java/com/_520it/crm/query/PotentialCustomerQueryObject.java
+END

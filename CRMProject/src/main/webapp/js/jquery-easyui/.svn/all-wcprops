@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/CRM06/!svn/ver/58/src/main/webapp/js/jquery-easyui
+END
+datagrid-scrollview.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/CRM06/!svn/ver/19/src/main/webapp/js/jquery-easyui/datagrid-scrollview.js
+END
+licence_gpl.txt
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/CRM06/!svn/ver/1/src/main/webapp/js/jquery-easyui/licence_gpl.txt
+END
+easyloader.js
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/CRM06/!svn/ver/1/src/main/webapp/js/jquery-easyui/easyloader.js
+END
+base.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/CRM06/!svn/ver/1/src/main/webapp/js/jquery-easyui/base.js
+END
+changelog.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/CRM06/!svn/ver/1/src/main/webapp/js/jquery-easyui/changelog.txt
+END
+datagrid-detailview.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/CRM06/!svn/ver/19/src/main/webapp/js/jquery-easyui/datagrid-detailview.js
+END
+jquery.easyui.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/CRM06/!svn/ver/1/src/main/webapp/js/jquery-easyui/jquery.easyui.min.js
+END
+jquery.portal.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/CRM06/!svn/ver/23/src/main/webapp/js/jquery-easyui/jquery.portal.js
+END
+license_commercial.txt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/CRM06/!svn/ver/1/src/main/webapp/js/jquery-easyui/license_commercial.txt
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/CRM06/!svn/ver/1/src/main/webapp/js/jquery-easyui/readme.txt
+END
+jquery.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/CRM06/!svn/ver/1/src/main/webapp/js/jquery-easyui/jquery.min.js
+END

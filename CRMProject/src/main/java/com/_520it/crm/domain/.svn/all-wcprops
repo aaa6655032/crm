@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/CRM06/!svn/ver/55/src/main/java/com/_520it/crm/domain
+END
+ContractChart.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/CRM06/!svn/ver/28/src/main/java/com/_520it/crm/domain/ContractChart.java
+END
+Customer.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/CRM06/!svn/ver/17/src/main/java/com/_520it/crm/domain/Customer.java
+END
+Role.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CRM06/!svn/ver/1/src/main/java/com/_520it/crm/domain/Role.java
+END
+Task.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/CRM06/!svn/ver/27/src/main/java/com/_520it/crm/domain/Task.java
+END
+Department.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/CRM06/!svn/ver/15/src/main/java/com/_520it/crm/domain/Department.java
+END
+Vacate.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/CRM06/!svn/ver/32/src/main/java/com/_520it/crm/domain/Vacate.java
+END
+CheckIn.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/CRM06/!svn/ver/22/src/main/java/com/_520it/crm/domain/CheckIn.java
+END
+Menu.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CRM06/!svn/ver/1/src/main/java/com/_520it/crm/domain/Menu.java
+END
+KnowledgeMenu.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/CRM06/!svn/ver/24/src/main/java/com/_520it/crm/domain/KnowledgeMenu.java
+END
+ContractChartVO.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/CRM06/!svn/ver/34/src/main/java/com/_520it/crm/domain/ContractChartVO.java
+END
+NetworkDisk.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/CRM06/!svn/ver/55/src/main/java/com/_520it/crm/domain/NetworkDisk.java
+END
+Attendance.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/CRM06/!svn/ver/32/src/main/java/com/_520it/crm/domain/Attendance.java
+END
+CustomerTransfer.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/CRM06/!svn/ver/13/src/main/java/com/_520it/crm/domain/CustomerTransfer.java
+END
+CustomerVO.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/CRM06/!svn/ver/34/src/main/java/com/_520it/crm/domain/CustomerVO.java
+END
+Calendar.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/CRM06/!svn/ver/39/src/main/java/com/_520it/crm/domain/Calendar.java
+END
+SystemDictionary.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/CRM06/!svn/ver/6/src/main/java/com/_520it/crm/domain/SystemDictionary.java
+END
+Guarantee.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/CRM06/!svn/ver/21/src/main/java/com/_520it/crm/domain/Guarantee.java
+END
+CustomerDevPlan.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/CRM06/!svn/ver/17/src/main/java/com/_520it/crm/domain/CustomerDevPlan.java
+END
+Contract.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/CRM06/!svn/ver/25/src/main/java/com/_520it/crm/domain/Contract.java
+END
+Know.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/CRM06/!svn/ver/24/src/main/java/com/_520it/crm/domain/Know.java
+END
+OrderBill.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/CRM06/!svn/ver/19/src/main/java/com/_520it/crm/domain/OrderBill.java
+END
+Employee.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/CRM06/!svn/ver/5/src/main/java/com/_520it/crm/domain/Employee.java
+END
+CustomerChart.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/CRM06/!svn/ver/28/src/main/java/com/_520it/crm/domain/CustomerChart.java
+END
+SystemLog.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/CRM06/!svn/ver/1/src/main/java/com/_520it/crm/domain/SystemLog.java
+END
+Permission.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/CRM06/!svn/ver/9/src/main/java/com/_520it/crm/domain/Permission.java
+END
+SystemDictionaryItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/CRM06/!svn/ver/6/src/main/java/com/_520it/crm/domain/SystemDictionaryItem.java
+END
+GuaranteeItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/CRM06/!svn/ver/15/src/main/java/com/_520it/crm/domain/GuaranteeItem.java
+END
+Clew.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/CRM06/!svn/ver/23/src/main/java/com/_520it/crm/domain/Clew.java
+END
+Salary.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/CRM06/!svn/ver/26/src/main/java/com/_520it/crm/domain/Salary.java
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/CRM06/!svn/ver/55/src/main/java/com/_520it/crm/util
+END
+LogUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CRM06/!svn/ver/13/src/main/java/com/_520it/crm/util/LogUtil.java
+END
+QuartzJob.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/CRM06/!svn/ver/23/src/main/java/com/_520it/crm/util/QuartzJob.java
+END
+UserContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/CRM06/!svn/ver/55/src/main/java/com/_520it/crm/util/UserContext.java
+END
+CheckInUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/CRM06/!svn/ver/16/src/main/java/com/_520it/crm/util/CheckInUtils.java
+END
+StringUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/CRM06/!svn/ver/23/src/main/java/com/_520it/crm/util/StringUtils.java
+END
+PermissionUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/CRM06/!svn/ver/17/src/main/java/com/_520it/crm/util/PermissionUtils.java
+END
+RequiredPermission.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/CRM06/!svn/ver/27/src/main/java/com/_520it/crm/util/RequiredPermission.java
+END
+FileUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/CRM06/!svn/ver/55/src/main/java/com/_520it/crm/util/FileUtil.java
+END

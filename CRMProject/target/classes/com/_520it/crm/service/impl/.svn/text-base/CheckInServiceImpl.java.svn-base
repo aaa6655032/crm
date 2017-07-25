@@ -1,0 +1,209 @@
+package com._520it.crm.service.impl;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com._520it.crm.domain.CheckIn;
+import com._520it.crm.domain.Employee;
+import com._520it.crm.domain.Role;
+import com._520it.crm.mapper.CheckInMapper;
+import com._520it.crm.page.PageResult;
+import com._520it.crm.query.CheckInQueryObject;
+import com._520it.crm.query.QueryObject;
+import com._520it.crm.service.ICheckInService;
+import com._520it.crm.util.CheckInUtils;
+import com._520it.crm.util.UserContext;
+
+@Service
+public class CheckInServiceImpl implements ICheckInService {
+
+	@Autowired
+	private CheckInMapper dao;
+
+	
+	public int save(CheckIn checkIn) {
+		
+		return dao.insert(checkIn);
+	}
+
+	public int update(CheckIn checkIn) {
+		
+		return dao.updateByPrimaryKey(checkIn);
+	}
+
+	public CheckIn get(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public List<CheckIn> listAll() {
+
+		return dao.selectAll();
+	}
+
+	public PageResult queryByCondition(QueryObject qo) {
+		// 根据查询条件查询出总条数
+		Long count = dao.queryByConditionCount(qo);
+		if (count == 0) { // 总条数为0,返回空的结果集
+			return PageResult.EMPTY;
+		} else {
+			// 返回查询的结果集
+			List<CheckIn> listData = dao.queryByCondition(qo);
+			return new PageResult(count, listData);
+		}
+	}
+	
+			//普通员工查询考勤
+		public PageResult queryCheckInByEid(Long id) {
+		// 根据查询条件查询出总条数
+				Long count = dao.queryCheckInByEidCount(id);
+				if (count == 0) { // 总条数为0,返回空的结果集
+					return PageResult.EMPTY;
+				} else {
+					// 返回查询的结果集
+					List<CheckIn> listData = dao.queryCheckInByEid(id);
+					return new PageResult(count, listData);
+				}
+	}
+
+
+	
+	// 签到
+	public int signIn(CheckIn checkIn, Long id) {
+		Date date = new Date();
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+		String dateNowStr = sdf.format(date);
+		// 获取当前登陆用户的id
+		List<CheckIn> listCheckIn = dao.queryByEid(id);
+		for (CheckIn c : listCheckIn) {
+			Date signInDate = c.getSignintime(); // 先判断当前日期是否有签到
+			if (signInDate != null) {
+				String dateStr = sdf.format(signInDate);
+				if (dateStr.equals(dateNowStr)) { // 相等说明已经签到了
+					return 0;
+				}
+			} else {
+				Date signOutDate = c.getSignouttime(); // 如果为空判断签退时间
+				if (signOutDate != null) {
+					String dateStr = sdf.format(signOutDate);
+					if (dateStr.equals(dateNowStr)) {
+						return 0;
+					}
+				}
+			}
+		}
+		checkIn.setSignintime(date);
+		// 判断当前的时间,设置状态
+		int result = CheckInUtils.checkSignInTime(date);
+		if (result == -1) { // 当前时间和比较的时间早
+			checkIn.setState(CheckIn.SIGNSTATE_NORMAL);
+		} else {
+			checkIn.setState(CheckIn.SIGNSTATE_LATE);
+		}
+		return dao.insert(checkIn);
+	}
+
+	// 签退
+
+	public int signOut(CheckIn checkIn, Long id) {
+		Date date = new Date();
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+		String dateNowStr = sdf.format(date); // 格式化当前日期
+		// 获取当前登陆用户的id
+		List<CheckIn> listCheckIn = dao.queryByEid(id);
+		for (CheckIn c : listCheckIn) {
+			// 先查找当前日前下是否有签退时间 , 有直接更新,没有在查找当天的签到时间
+			Date signoutdate = c.getSignouttime();
+			if (signoutdate != null) { // 当前签退时间不为空 //当前签到日期
+				String signoutdateStr = sdf.format(signoutdate);
+				if (signoutdateStr.equals(dateNowStr)) { // 如果找到当天的签退时间,更新签退时间
+					c.setSignouttime(date);
+					// 判断当前的时间,设置状态
+					int resultOut = CheckInUtils.checkSignOutTime(date); // 签退的状态
+					Date signIndate = c.getSignintime(); // 查当前的签到时间
+					if (signIndate != null) {
+						int resultIn = CheckInUtils.checkSignInTime(signIndate); // 1 迟到
+						if (resultOut == -1) { // 早退
+							if (resultIn == 1) { // 迟到
+								c.setState(CheckIn.SIGNSTATE_LATEANDEARLY);
+							}
+						} else { // 签退正常
+							if (resultIn == -1) { // 正常
+								c.setState(CheckIn.SIGNSTATE_NORMAL);
+							} else {
+								c.setState(CheckIn.SIGNSTATE_LATE);
+							}
+						}
+					} else { // 签到时间为空 直接就是当前的签退状态
+						if (resultOut == -1) { // 当前时间 比签退时间晚
+							c.setState(CheckIn.SIGNSTATE_EARLY);
+						} else {
+							c.setState(CheckIn.SIGNSTATE_NORMAL);
+						}
+					}
+					return dao.updateByPrimaryKey(c);
+				}
+			} else { // 没有签退时间
+				Date signInDate = c.getSignintime(); // 获取当前的签到时间
+				// 如果是空的直接跳过,非空判断
+				if (signInDate != null) {
+					String dateStr = sdf.format(signInDate);
+					if (dateStr.equals(dateNowStr)) { // 如果找到当天的签到时间,更新签退时间
+						c.setSignouttime(date);
+						// 判断当前的时间,设置状态
+						int resultOut = CheckInUtils.checkSignOutTime(date); // 当前的签退时间
+																				// 1为正常
+
+						// 获取到当前的签到时间
+						Date signintime = c.getSignintime();
+						int resultIn = CheckInUtils.checkSignInTime(signintime); // 当前的签到状态
+																					// 1为迟到
+
+						if (resultOut == -1) { // 早退
+							if (resultIn == -1) { // 正常
+								c.setState(CheckIn.SIGNSTATE_EARLY);
+							} else {
+								c.setState(CheckIn.SIGNSTATE_LATEANDEARLY);
+							}
+						} else { // 正常
+							if (resultIn == -1) { // 正常
+								c.setState(CheckIn.SIGNSTATE_NORMAL);
+							} else {
+								c.setState(CheckIn.SIGNSTATE_LATE);
+							}
+						}
+						return dao.updateByPrimaryKey(c);
+					}
+				}
+			}
+		}
+		int result = CheckInUtils.checkSignOutTime(date);
+		if (result == -1) { // 当前时间和比较时间早
+			checkIn.setState(CheckIn.SIGNSTATE_EARLY);
+		} else {
+			checkIn.setState(CheckIn.SIGNSTATE_NORMAL);
+		}
+		checkIn.setSignouttime(date);
+		return dao.insert(checkIn);
+	}
+
+	public int AddCheckIn(CheckIn checkIn, Long id) {
+		//根据用户Id+
+		
+			//新增
+		
+		
+		//
+
+		return 0;
+	}
+
+
+
+	
+}

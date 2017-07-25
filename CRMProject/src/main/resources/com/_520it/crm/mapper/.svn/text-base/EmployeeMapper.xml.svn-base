@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com._520it.crm.mapper.EmployeeMapper">
+    <resultMap id="BaseResultMap" type="Employee">
+        <id column="id" property="id" jdbcType="BIGINT"/>
+        <result column="username" property="username" jdbcType="VARCHAR"/>
+        <result column="realname" property="realname" jdbcType="VARCHAR"/>
+        <result column="password" property="password" jdbcType="VARCHAR"/>
+        <result column="tel" property="tel" jdbcType="VARCHAR"/>
+        <result column="email" property="email" jdbcType="VARCHAR"/>
+        <result column="inputTime" property="inputtime" jdbcType="TIMESTAMP"/>
+        <result column="state" property="state" />
+        <result column="admin" property="admin" />
+        <association property="dept" javaType="Department" columnPrefix="dept_">
+            <id column="id" property="id"/>
+            <result column="name" property="name"/>
+        </association>
+        <collection property="roles" ofType="Role" column="id"
+                    select="com._520it.crm.mapper.RoleMapper.selectByEid"></collection>
+    </resultMap>
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from employee
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+
+    <delete id="deleteRoleByEid">
+      delete from emp_role where e_id =#{eid};
+    </delete>
+
+    <insert id="insert" parameterType="Employee" useGeneratedKeys="true" keyProperty="id">
+    insert into employee (username, realname, password, 
+      tel, email, dept_id, 
+      inputTime, state, admin)
+    values (#{username,jdbcType=VARCHAR}, #{realname,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, 
+      #{tel,jdbcType=VARCHAR}, #{email,jdbcType=VARCHAR}, #{dept.id,jdbcType=BIGINT},
+      #{inputtime,jdbcType=TIMESTAMP}, #{state,jdbcType=BIT}, #{admin,jdbcType=BIT})
+  </insert>
+
+    <insert id="handleRelation">
+      insert into emp_role(e_id,r_id) values(#{Eid},#{Rid});
+    </insert>
+
+
+    <update id="updateByPrimaryKey" parameterType="Employee">
+    update employee
+    set username = #{username,jdbcType=VARCHAR},
+      realname = #{realname,jdbcType=VARCHAR},
+      tel = #{tel,jdbcType=VARCHAR},
+      email = #{email,jdbcType=VARCHAR},
+      dept_id = #{dept.id,jdbcType=BIGINT}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+    <sql id="filesql">
+    e.id, e.username, e.realname, e.password, e.tel, e.email, e.inputTime, e.state, e.admin,d.id as dept_id,d.name as dept_name
+   </sql>
+
+    <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long">
+        select
+        <include refid="filesql"/>
+        from employee e left join department d on e.dept_id=d.id
+        where e.id = #{id,jdbcType=BIGINT}
+    </select>
+    <select id="selectAll" resultMap="BaseResultMap">
+        select
+        <include refid="filesql"/>
+        from employee e left join department d on e.dept_id=d.id
+    </select>
+
+    <select id="selectAllCount" resultType="long">
+        select count(*)
+        from employee e left join department d on e.dept_id=d.id
+    </select>
+    <select id="queryByLogin" resultType="Employee">
+      select * from employee where username = #{username} and password = #{password}
+    </select>
+
+
+    <!--高级查询条件部分-->
+    <sql id="conditionSql">
+        <where>
+            <if test="state!=null">
+                AND e.state = #{state}
+            </if>
+            <if test="keyword!=null">
+                AND (e.username like concat('%',#{keyword},'%') OR e.realname like concat('%',#{keyword},'%') )
+            </if>
+            <if test="beginDate!=null">
+                AND e.inputtime &gt;= #{beginDate}
+            </if>
+            <if test="endDate!=null">
+                AND e.inputtime &lt;= #{endDate}
+            </if>
+        </where>
+    </sql>
+
+    <!--高级查询部分-->
+    <select id="queryByConditionCount" resultType="java.lang.Long">
+        select count(*) from employee e
+        <include refid="conditionSql"/>
+    </select>
+
+    <select id="queryByCondition" resultMap="BaseResultMap">
+        select
+        <include refid="filesql"/>
+        from employee e left join department d on e.dept_id=d.id
+        <include refid="conditionSql"/>
+        <if test="page != null">
+            limit #{start},#{rows}
+        </if>
+    </select>
+
+    <select id="queryByRoleIdByEid" resultType="java.lang.Long">
+    select r_id from emp_role where e_id = #{eid}
+  </select>
+
+    <select id="selectByPotential" resultType="Employee">
+      select  id, username from employee where id in(select inChargeuser_id from customer where status =0)
+    </select>
+    <select id="selectByCustomer" resultType="Employee">
+      select  id, username from employee where id in(select inChargeuser_id from customer where status =1)
+    </select>
+
+    <select id="selectByInCharge" resultType="Employee">
+        select * from employee where id in (select DISTINCT inchargeUser_id from customer)
+    </select>
+
+</mapper>

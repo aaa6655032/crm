@@ -1,0 +1,12 @@
+K 10
+svn:ignore
+V 61
+.classpath
+.idea
+.project
+mycrm.eml
+mycrm.iml
+pom.xml
+target
+
+END

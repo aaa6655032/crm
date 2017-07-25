@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/CRM06/!svn/ver/62/src/main/resources/com/_520it/crm/mapper
+END
+CustomerDevPlanMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/CRM06/!svn/ver/20/src/main/resources/com/_520it/crm/mapper/CustomerDevPlanMapper.xml
+END
+GuaranteeMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/CRM06/!svn/ver/21/src/main/resources/com/_520it/crm/mapper/GuaranteeMapper.xml
+END
+ContractMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/CRM06/!svn/ver/28/src/main/resources/com/_520it/crm/mapper/ContractMapper.xml
+END
+KnowMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/CRM06/!svn/ver/29/src/main/resources/com/_520it/crm/mapper/KnowMapper.xml
+END
+OrderBillMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/CRM06/!svn/ver/25/src/main/resources/com/_520it/crm/mapper/OrderBillMapper.xml
+END
+EmployeeMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/CRM06/!svn/ver/20/src/main/resources/com/_520it/crm/mapper/EmployeeMapper.xml
+END
+CustomerChartMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/CRM06/!svn/ver/51/src/main/resources/com/_520it/crm/mapper/CustomerChartMapper.xml
+END
+SystemLogMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/CRM06/!svn/ver/12/src/main/resources/com/_520it/crm/mapper/SystemLogMapper.xml
+END
+PermissionMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/CRM06/!svn/ver/31/src/main/resources/com/_520it/crm/mapper/PermissionMapper.xml
+END
+SystemDictionaryItemMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/CRM06/!svn/ver/14/src/main/resources/com/_520it/crm/mapper/SystemDictionaryItemMapper.xml
+END
+ClewMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/CRM06/!svn/ver/23/src/main/resources/com/_520it/crm/mapper/ClewMapper.xml
+END
+GuaranteeItemMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/CRM06/!svn/ver/21/src/main/resources/com/_520it/crm/mapper/GuaranteeItemMapper.xml
+END
+SalaryMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/CRM06/!svn/ver/26/src/main/resources/com/_520it/crm/mapper/SalaryMapper.xml
+END
+ContractChartMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/CRM06/!svn/ver/62/src/main/resources/com/_520it/crm/mapper/ContractChartMapper.xml
+END
+RoleMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/CRM06/!svn/ver/14/src/main/resources/com/_520it/crm/mapper/RoleMapper.xml
+END
+CustomerMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/CRM06/!svn/ver/36/src/main/resources/com/_520it/crm/mapper/CustomerMapper.xml
+END
+TaskMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/CRM06/!svn/ver/27/src/main/resources/com/_520it/crm/mapper/TaskMapper.xml
+END
+DepartmentMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/CRM06/!svn/ver/27/src/main/resources/com/_520it/crm/mapper/DepartmentMapper.xml
+END
+VacateMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/CRM06/!svn/ver/32/src/main/resources/com/_520it/crm/mapper/VacateMapper.xml
+END
+CheckInMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/CRM06/!svn/ver/26/src/main/resources/com/_520it/crm/mapper/CheckInMapper.xml
+END
+MenuMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/CRM06/!svn/ver/1/src/main/resources/com/_520it/crm/mapper/MenuMapper.xml
+END
+KnowledgeMenuMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/CRM06/!svn/ver/24/src/main/resources/com/_520it/crm/mapper/KnowledgeMenuMapper.xml
+END
+NetworkDiskMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/CRM06/!svn/ver/55/src/main/resources/com/_520it/crm/mapper/NetworkDiskMapper.xml
+END
+CustomerTransferMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/CRM06/!svn/ver/20/src/main/resources/com/_520it/crm/mapper/CustomerTransferMapper.xml
+END
+AttendanceMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/CRM06/!svn/ver/33/src/main/resources/com/_520it/crm/mapper/AttendanceMapper.xml
+END
+CalendarMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/CRM06/!svn/ver/39/src/main/resources/com/_520it/crm/mapper/CalendarMapper.xml
+END
+SystemDictionaryMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/CRM06/!svn/ver/6/src/main/resources/com/_520it/crm/mapper/SystemDictionaryMapper.xml
+END

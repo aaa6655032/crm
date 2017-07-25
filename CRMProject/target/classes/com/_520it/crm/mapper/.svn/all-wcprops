@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/CRM06/!svn/ver/55/src/main/java/com/_520it/crm/mapper
+END
+GuaranteeItemMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/CRM06/!svn/ver/21/src/main/java/com/_520it/crm/mapper/GuaranteeItemMapper.java
+END
+ClewMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/CRM06/!svn/ver/23/src/main/java/com/_520it/crm/mapper/ClewMapper.java
+END
+SalaryMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/CRM06/!svn/ver/26/src/main/java/com/_520it/crm/mapper/SalaryMapper.java
+END
+ContractChartMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/CRM06/!svn/ver/34/src/main/java/com/_520it/crm/mapper/ContractChartMapper.java
+END
+RoleMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/CRM06/!svn/ver/13/src/main/java/com/_520it/crm/mapper/RoleMapper.java
+END
+CustomerMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/CRM06/!svn/ver/36/src/main/java/com/_520it/crm/mapper/CustomerMapper.java
+END
+TaskMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/CRM06/!svn/ver/27/src/main/java/com/_520it/crm/mapper/TaskMapper.java
+END
+DepartmentMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/CRM06/!svn/ver/27/src/main/java/com/_520it/crm/mapper/DepartmentMapper.java
+END
+VacateMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/CRM06/!svn/ver/32/src/main/java/com/_520it/crm/mapper/VacateMapper.java
+END
+MenuMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/CRM06/!svn/ver/1/src/main/java/com/_520it/crm/mapper/MenuMapper.java
+END
+CheckInMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/CRM06/!svn/ver/16/src/main/java/com/_520it/crm/mapper/CheckInMapper.java
+END
+KnowledgeMenuMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/CRM06/!svn/ver/24/src/main/java/com/_520it/crm/mapper/KnowledgeMenuMapper.java
+END
+NetworkDiskMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/CRM06/!svn/ver/55/src/main/java/com/_520it/crm/mapper/NetworkDiskMapper.java
+END
+AttendanceMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/CRM06/!svn/ver/32/src/main/java/com/_520it/crm/mapper/AttendanceMapper.java
+END
+CustomerTransferMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/CRM06/!svn/ver/17/src/main/java/com/_520it/crm/mapper/CustomerTransferMapper.java
+END
+CalendarMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/CRM06/!svn/ver/39/src/main/java/com/_520it/crm/mapper/CalendarMapper.java
+END
+SystemDictionaryMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/CRM06/!svn/ver/6/src/main/java/com/_520it/crm/mapper/SystemDictionaryMapper.java
+END
+GuaranteeMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/CRM06/!svn/ver/21/src/main/java/com/_520it/crm/mapper/GuaranteeMapper.java
+END
+CustomerDevPlanMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/CRM06/!svn/ver/17/src/main/java/com/_520it/crm/mapper/CustomerDevPlanMapper.java
+END
+ContractMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/CRM06/!svn/ver/25/src/main/java/com/_520it/crm/mapper/ContractMapper.java
+END
+KnowMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/CRM06/!svn/ver/29/src/main/java/com/_520it/crm/mapper/KnowMapper.java
+END
+OrderBillMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/CRM06/!svn/ver/25/src/main/java/com/_520it/crm/mapper/OrderBillMapper.java
+END
+EmployeeMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/CRM06/!svn/ver/17/src/main/java/com/_520it/crm/mapper/EmployeeMapper.java
+END
+CustomerChartMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/CRM06/!svn/ver/34/src/main/java/com/_520it/crm/mapper/CustomerChartMapper.java
+END
+SystemLogMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/CRM06/!svn/ver/1/src/main/java/com/_520it/crm/mapper/SystemLogMapper.java
+END
+PermissionMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/CRM06/!svn/ver/9/src/main/java/com/_520it/crm/mapper/PermissionMapper.java
+END
+SystemDictionaryItemMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/CRM06/!svn/ver/13/src/main/java/com/_520it/crm/mapper/SystemDictionaryItemMapper.java
+END

@@ -1,0 +1,23 @@
+package com._520it.crm.service;
+
+import com._520it.crm.domain.Calendar;
+
+import java.util.List;
+
+/**
+ * Created by ShikieikiSama丶 on 2016/9/24.
+ */
+public interface ICalendarService {
+
+    int deleteByPrimaryKey(Long id);
+
+    int insert(Calendar record);
+
+    Calendar selectByPrimaryKey(Long id);
+
+    List<Calendar> selectAll();
+
+    int updateByPrimaryKey(Calendar record);
+
+    int updateDayDelta(Long id, int startInt, int endInt);
+}

@@ -1,0 +1,713 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale
+END
+en-au.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/en-au.js
+END
+es-do.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/es-do.js
+END
+._id.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._id.js
+END
+eu.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/eu.js
+END
+hu.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/hu.js
+END
+._el.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._el.js
+END
+vi.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/vi.js
+END
+._gl.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._gl.js
+END
+pt-br.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/pt-br.js
+END
+._zh-tw.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._zh-tw.js
+END
+._nl.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._nl.js
+END
+ru.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/ru.js
+END
+._th.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._th.js
+END
+._pl.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._pl.js
+END
+._it.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._it.js
+END
+._sl.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._sl.js
+END
+._zh-cn.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._zh-cn.js
+END
+._lt.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._lt.js
+END
+id.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/id.js
+END
+._pt.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._pt.js
+END
+el.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/el.js
+END
+gl.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/gl.js
+END
+._en-gb.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._en-gb.js
+END
+._bg.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._bg.js
+END
+._fr-ca.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._fr-ca.js
+END
+nl.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/nl.js
+END
+pl.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/pl.js
+END
+th.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/th.js
+END
+it.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/it.js
+END
+sl.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/sl.js
+END
+._ms-my.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._ms-my.js
+END
+lt.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/lt.js
+END
+._cs.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._cs.js
+END
+pt.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/pt.js
+END
+._mk.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._mk.js
+END
+._es.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._es.js
+END
+._ko.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._ko.js
+END
+bg.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/bg.js
+END
+._is.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._is.js
+END
+._sk.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._sk.js
+END
+sr-cyrl.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/sr-cyrl.js
+END
+._uk.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._uk.js
+END
+._ms.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._ms.js
+END
+._ro.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._ro.js
+END
+._ar-tn.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._ar-tn.js
+END
+._en-ca.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._en-ca.js
+END
+._en-nz.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._en-nz.js
+END
+cs.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/cs.js
+END
+._de-at.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._de-at.js
+END
+es.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/es.js
+END
+mk.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/mk.js
+END
+._sr-cyrl.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._sr-cyrl.js
+END
+ko.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/ko.js
+END
+zh-tw.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/zh-tw.js
+END
+._lb.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._lb.js
+END
+._en-ie.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._en-ie.js
+END
+._ar-ma.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._ar-ma.js
+END
+is.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/is.js
+END
+._nb.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._nb.js
+END
+._fr-ch.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._fr-ch.js
+END
+sk.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/sk.js
+END
+._ar.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._ar.js
+END
+ms.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/ms.js
+END
+uk.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/uk.js
+END
+zh-cn.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/zh-cn.js
+END
+._ar-sa.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._ar-sa.js
+END
+ro.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/ro.js
+END
+._en-au.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._en-au.js
+END
+._es-do.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._es-do.js
+END
+._fr.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._fr.js
+END
+._hr.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._hr.js
+END
+._nn.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._nn.js
+END
+en-gb.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/en-gb.js
+END
+fr-ca.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/fr-ca.js
+END
+lb.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/lb.js
+END
+._lv.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._lv.js
+END
+nb.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/nb.js
+END
+._ca.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._ca.js
+END
+._sr.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._sr.js
+END
+._pt-br.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._pt-br.js
+END
+._da.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._da.js
+END
+ar.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/ar.js
+END
+._tr.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._tr.js
+END
+ms-my.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/ms-my.js
+END
+._fa.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._fa.js
+END
+._sv.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._sv.js
+END
+._de.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._de.js
+END
+._ja.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._ja.js
+END
+fr.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/fr.js
+END
+._he.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._he.js
+END
+hr.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/hr.js
+END
+._fi.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._fi.js
+END
+nn.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/nn.js
+END
+._hi.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._hi.js
+END
+ar-tn.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/ar-tn.js
+END
+lv.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/lv.js
+END
+ca.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/ca.js
+END
+en-ca.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/en-ca.js
+END
+da.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/da.js
+END
+sr.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/sr.js
+END
+tr.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/tr.js
+END
+._eu.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._eu.js
+END
+fa.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/fa.js
+END
+en-nz.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/en-nz.js
+END
+de.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/de.js
+END
+sv.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/sv.js
+END
+._hu.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._hu.js
+END
+de-at.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/de-at.js
+END
+ja.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/ja.js
+END
+._vi.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._vi.js
+END
+he.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/he.js
+END
+ar-ma.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/ar-ma.js
+END
+en-ie.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/en-ie.js
+END
+fi.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/fi.js
+END
+fr-ch.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/fr-ch.js
+END
+hi.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/hi.js
+END
+ar-sa.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/ar-sa.js
+END
+._ru.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/CRM06/!svn/ver/39/src/main/webapp/js/fullcalendar/locale/._ru.js
+END

@@ -1,0 +1,69 @@
+K 26
+svn:wc:ra_dav:activity-url
+V 20
+/svn/CRM06/!svn/act/
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/CRM06/!svn/ver/62/src/main/resources
+END
+stopword.dic
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/CRM06/!svn/ver/23/src/main/resources/stopword.dic
+END
+application-cxf.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/CRM06/!svn/ver/21/src/main/resources/application-cxf.xml
+END
+application.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/CRM06/!svn/ver/26/src/main/resources/application.xml
+END
+application-mvc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/CRM06/!svn/ver/39/src/main/resources/application-mvc.xml
+END
+mybatis.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/CRM06/!svn/ver/23/src/main/resources/mybatis.cfg.xml
+END
+IKAnalyzer.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/CRM06/!svn/ver/23/src/main/resources/IKAnalyzer.cfg.xml
+END
+application-quartz.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/CRM06/!svn/ver/23/src/main/resources/application-quartz.xml
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/CRM06/!svn/ver/28/src/main/resources/log4j.properties
+END
+generatorConfig.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/CRM06/!svn/ver/39/src/main/resources/generatorConfig.xml
+END
+jdbc.properties
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/CRM06/!svn/ver/27/src/main/resources/jdbc.properties
+END
